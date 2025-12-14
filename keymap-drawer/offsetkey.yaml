@@ -516,3 +516,10 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
+combos:
+- p: [34, 49]
+  k: $$mdi:mouse-left-click-outline$$
+- p: [35, 50]
+  k: $$mdi:mouse-scroll-wheel$$
+- p: [36, 51]
+  k: $$mdi:mouse-right-click-outline$$
