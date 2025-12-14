@@ -53,6 +53,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        mouse_left {
+            bindings = <&mkp LCLK>;
+            key-positions = <34 49>;
+        };
+
+        mouse_mid {
+            bindings = <&mkp MCLK>;
+            key-positions = <35 50>;
+        };
+
+        mouse_right {
+            bindings = <&mkp RCLK>;
+            key-positions = <36 51>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
