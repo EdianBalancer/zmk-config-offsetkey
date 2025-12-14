@@ -33,7 +33,7 @@ layers:
   - {t: \, s: '|'}
   - PGUP
   - T
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
   - D
