@@ -79,12 +79,12 @@
             label = "QWERTY";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             bindings = <
-&kp ESC        &kp N1          &kp N2           &kp N3           &kp N4     &kp N5            &kp N6      &kp N7     &kp N8            &kp N9     &kp N0    &kp MINUS  &kp EQUAL  &kp BSPC   &kp F5                &kp N6
-&kp TAB        &kp Q           &kp W            &kp E            &kp R      &kp T                         &kp Y      &kp U             &kp I      &kp O     &kp P      &kp LBKT   &kp RBKT   &kp BSLH   &kp PG_UP  &kp T
-&mt LCTRL ESC  &kp A           &kp S            &kp D            &kp F      &kp G                         &kp H      &kp J             &kp K      &kp L     &kp SEMI   &kp SQT    &kp ENTER  &kp PG_DN             &kp G
-&kp LSHFT      &kp Z           &kp X            &kp C            &kp V      &kp B                         &kp N      &kp M             &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT  &kp UP     &kp DEL               &kp B
-&kp LCTRL      &kp LGUI        &kp LALT         &lt FUNMED CAPS             &lt NAVNUM SPACE                         &lt SYMBOL SPACE  &kp RALT   &kp RGUI  &kp RCTRL  &kp LEFT   &kp DOWN   &kp RIGHT             &kp SPACE
-&msc SCRL_UP   &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_DOWN   &mkp MCLK  &kp C_MUTE                    &mkp LCLK  &mkp MCLK         &mkp RCLK  &none
+&kp ESC         &kp N1          &kp N2           &kp N3           &kp N4     &kp N5            &kp N6      &kp N7     &kp N8            &kp N9     &kp N0    &kp MINUS  &kp EQUAL  &kp BSPC   &kp F5                &kp N6
+&kp TAB         &kp Q           &kp W            &kp E            &kp R      &kp T                         &kp Y      &kp U             &kp I      &kp O     &kp P      &kp LBKT   &kp RBKT   &kp BSLH   &kp PG_UP  &kp T
+&mt LCTRL CAPS  &kp A           &kp S            &kp D            &kp F      &kp G                         &kp H      &kp J             &kp K      &kp L     &kp SEMI   &kp SQT    &kp ENTER  &kp PG_DN             &kp G
+&kp LSHFT       &kp Z           &kp X            &kp C            &kp V      &kp B                         &kp N      &kp M             &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT  &kp UP     &kp DEL               &kp B
+&kp LCTRL       &kp LGUI        &kp LALT         &lt FUNMED CAPS             &lt NAVNUM SPACE                         &lt SYMBOL SPACE  &kp RALT   &kp RGUI  &kp RCTRL  &kp LEFT   &kp DOWN   &kp RIGHT             &kp SPACE
+&msc SCRL_UP    &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_DOWN   &mkp MCLK  &kp C_MUTE                    &mkp LCLK  &mkp MCLK         &mkp RCLK  &none
             >;
         };
 
@@ -134,6 +134,8 @@
 &sk LCTRL     &sk LGUI    &sk LALT    &caps_word              &kp UNDER                         &trans     &trans    &trans    &trans     &trans    &trans    &trans            &trans
 &kp C_BRI_UP  &kp C_PREV  &kp C_NEXT  &kp C_BRI_DN  &kp C_PP  &trans                 &trans     &trans     &trans    &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         CONFIG {
