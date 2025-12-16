@@ -59,16 +59,19 @@
         mouse_left {
             bindings = <&mkp LCLK>;
             key-positions = <34 49>;
+            layers = <0>;
         };
 
         mouse_mid {
             bindings = <&mkp MCLK>;
             key-positions = <35 50>;
+            layers = <0>;
         };
 
         mouse_right {
             bindings = <&mkp RCLK>;
             key-positions = <36 51>;
+            layers = <0>;
         };
     };
 
@@ -103,12 +106,12 @@
         FUNMED {
             label = "FUNMED";
             bindings = <
-&trans     &trans    &trans    &trans  &trans  &trans           &trans      &trans        &trans          &trans          &trans           &trans      &trans        &trans  &trans          &trans
-&kp K_APP  &kp F12   &kp F9    &kp F8  &kp F7  &kp PSCRN                    &kp C_VOL_UP  &mkp MB4        &msc SCRL_UP    &mkp MB5         &kp C_PREV  &kp C_BRI_UP  &trans  &trans  &trans  &trans
-&sk LCTRL  &kp F11   &kp F6    &kp F5  &kp F4  &kp SLCK                     &kp C_VOL_DN  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp C_NEXT  &kp C_BRI_DN  &trans  &trans          &trans
-&sk LSHFT  &kp F10   &kp F3    &kp F2  &kp F1  &kp PAUSE_BREAK              &kp C_MUTE    &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp C_PP    &trans        &trans  &trans          &trans
-&sk LCTRL  &sk LGUI  &sk LALT  &trans          &lm NAVNUM LALT                            &trans          &trans          &trans           &trans      &trans        &trans  &trans          &trans
-&trans     &trans    &trans    &trans  &trans  &trans                       &trans        &trans          &trans          &trans
+&trans         &trans    &trans    &trans  &trans  &trans           &trans      &trans        &trans          &trans          &trans           &trans      &trans        &trans  &trans          &trans
+&kp K_APP      &kp F12   &kp F9    &kp F8  &kp F7  &kp PSCRN                    &kp C_VOL_UP  &mkp MB4        &msc SCRL_UP    &mkp MB5         &kp C_PREV  &kp C_BRI_UP  &trans  &trans  &trans  &trans
+&sk LCTRL      &kp F11   &kp F6    &kp F5  &kp F4  &kp SLCK                     &kp C_VOL_DN  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp C_NEXT  &kp C_BRI_DN  &trans  &trans          &trans
+&sk LSHFT      &kp F10   &kp F3    &kp F2  &kp F1  &kp PAUSE_BREAK              &kp C_MUTE    &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp C_PP    &trans        &trans  &trans          &trans
+&kp BACKSPACE  &sk LGUI  &sk LALT  &trans          &lm NAVNUM LALT                            &trans          &trans          &trans           &trans      &trans        &trans  &trans          &trans
+&trans         &trans    &trans    &trans  &trans  &trans                       &trans        &trans          &trans          &trans
             >;
         };
 
