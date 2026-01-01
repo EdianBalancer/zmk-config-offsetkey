@@ -778,6 +778,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="299" y="159" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
+<g class="combo enter combopos-3">
+<rect rx="6" ry="6" x="1330" y="211" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="1335" y="215" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 336)" class="layer-AUTOMS">
@@ -2426,10 +2430,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-41" y="-24" width="82" height="40" class="key trans"/>
 <use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down"/>
 </g>
-<g transform="translate(1288, 196)" class="key trans keypos-59">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down"/>
+<g transform="translate(1288, 196)" class="key keypos-59">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">PGUP</text>
 </g>
 <g transform="translate(1344, 196)" class="key trans keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -2488,20 +2492,20 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down"/>
 </g>
-<g transform="translate(1232, 252)" class="key trans keypos-71">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down"/>
+<g transform="translate(1232, 252)" class="key keypos-71">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">HOME</text>
 </g>
-<g transform="translate(1288, 252)" class="key trans keypos-72">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down"/>
+<g transform="translate(1288, 252)" class="key keypos-72">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">PGDN</text>
 </g>
-<g transform="translate(1344, 252)" class="key trans keypos-73">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down"/>
+<g transform="translate(1344, 252)" class="key keypos-73">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">END</text>
 </g>
 <g transform="translate(784, 252)" class="key trans keypos-74">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>

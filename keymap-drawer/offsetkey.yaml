@@ -404,7 +404,7 @@ layers:
   - '>'
   - '?'
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - PGUP
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -416,9 +416,9 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - HOME
+  - PGDN
+  - END
   - {t: '$$mdi:menu-down$$', type: trans}
   - $$mdi:brightness-5$$
   - $$mdi:skip-previous$$
@@ -525,4 +525,7 @@ combos:
   l: [QWERTY]
 - p: [36, 51]
   k: $$mdi:mouse-right-click-outline$$
+  l: [QWERTY]
+- p: [60, 73]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [QWERTY]
