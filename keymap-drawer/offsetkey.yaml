@@ -327,8 +327,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - KP 0
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - .
+  - {t: '=', s: +}
   - {t: '$$mdi:menu-down$$', type: trans}
   - HOME
   - PGDN
