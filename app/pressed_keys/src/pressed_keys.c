@@ -10,6 +10,7 @@
 #include <sys/printk.h>
 #include <string.h>
 #include <stdio.h>
+#include <devicetree.h>
 
 #include "pressed_keys.h"
 
@@ -142,9 +143,13 @@ static int pressed_keys_event_listener(const zmk_event_t *eh) {
 }
 
 void pressed_keys_init(void) {
-    disp = device_get_binding("oled");
-    if (!disp) {
-        printk("pressed_keys: left display 'oled' not found\n");
+    /* Get display device from devicetree node label 'oled' and ensure ready */
+    disp = DEVICE_DT_GET(DT_NODELABEL(oled));
+    if (!device_is_ready(disp)) {
+        printk("pressed_keys: left display not found or not ready\n");
+        disp = NULL;
+    } else {
+        printk("pressed_keys: display found\n");
     }
 
     zmk_event_manager_subscribe(pressed_keys_event_listener);
