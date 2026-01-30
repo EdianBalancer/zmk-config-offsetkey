@@ -1,0 +1,6 @@
+config PRESSED_KEYS
+    bool "Enable pressed-keys display"
+    depends on ZMK_DISPLAY
+    default y
+    help
+      Display currently pressed keys on the left OLED screen (128x32).
