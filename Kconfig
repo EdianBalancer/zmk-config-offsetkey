@@ -1,0 +1,2 @@
+rsource "src/display/Kconfig"
+rsource "src/display/widgets/Kconfig"
