@@ -1,0 +1,12 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+menu "ZMK Display Widgets INDICATORS_STATUS"
+
+config ZMK_WIDGET_INDICATORS_STATUS
+    bool "Widget for displaying HID indicators status"
+    depends on !ZMK_SPLIT || ZMK_SPLIT_ROLE_CENTRAL
+    select LV_USE_LABEL
+    select ZMK_INDICATORS
+
+endmenu

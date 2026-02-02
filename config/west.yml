@@ -1,7 +1,8 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/EdianBalancer
+      url-base: https://github.com/zmkfirmware
+      #url-base: https://github.com/EdianBalancer
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
     - name: badjeff
@@ -17,7 +18,8 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.1
+      #revision: v0.3.1
+      revision: v0.3.0
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: kumamuk-git
