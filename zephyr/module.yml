@@ -1,5 +1,5 @@
 build:
   settings:
      board_root: .
-
+  cmake: .
   kconfig: src/offsetkey_display/Kconfig
