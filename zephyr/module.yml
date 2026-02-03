@@ -1,5 +1,5 @@
 build:
   settings:
      board_root: .
-  cmake: src/display/widgets/
-  kconfig: src/display/Kconfig
+
+  kconfig: src/offsetkey_display/Kconfig
