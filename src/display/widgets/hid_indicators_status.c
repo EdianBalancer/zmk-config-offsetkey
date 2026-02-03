@@ -9,9 +9,9 @@
 LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include <zmk/display.h>
-#include <zmk/display/widgets/hid_indicators_status.h>
+#include <hid_indicators_status.h>
 #include <zmk/hid_indicators.h>
-#include <hid_indicators_changed.h>
+#include <zmk/events/hid_indicators_changed.h>
 #include <zmk/hid_indicators_types.h>
 
 #define ZMK_LED_NUMLOCK_BIT BIT(0)

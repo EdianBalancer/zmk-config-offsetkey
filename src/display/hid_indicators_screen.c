@@ -7,7 +7,7 @@
 #include <zephyr/logging/log.h>
 #include <zmk/display/status_screen.h>
 #include <zmk/display/widgets/battery_status.h>
-#include <zmk/display/widgets/hid_indicators_status.h>
+#include <hid_indicators_status.h>
 #include <zmk/display/widgets/layer_status.h>
 #include <zmk/display/widgets/output_status.h>
 #include <zmk/display/widgets/peripheral_status.h>
