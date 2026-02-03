@@ -1,5 +1,5 @@
 build:
   settings:
      board_root: .
-  cmake: src/display/widgets/CMakeLists.txt
+  cmake: src/display/widgets/
   kconfig: src/display/Kconfig
