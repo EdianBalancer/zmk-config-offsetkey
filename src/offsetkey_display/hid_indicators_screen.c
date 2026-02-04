@@ -41,7 +41,7 @@ static struct zmk_widget_wpm_status wpm_status_widget;
 static struct zmk_widget_hid_indicators_status indicators_status_widget;
 #endif
 
-lv_obj_t *zmk_display_status_screen() {
+lv_obj_t *offsetkey_display_hid_indicators_screen() {
     lv_obj_t *screen;
     screen = lv_obj_create(NULL);
 
