@@ -10,7 +10,7 @@
 #include <zmk/display/widgets/battery_status.h>
 #include <zmk/display/widgets/layer_status.h>
 #include <zmk/display/widgets/wpm_status.h>
-#include <zmk-config-offsetkey/widgets/hid_indicators_status.h>
+#include <zmk_config_offsetkey/widgets/hid_indicators_status.h>
 #include <zmk/display/status_screen.h>
 
 #include <zephyr/logging/log.h>
