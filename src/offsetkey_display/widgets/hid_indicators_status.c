@@ -9,7 +9,7 @@
 LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include <zmk/display.h>
-#include <offsetkey_display/widgets/hid_indicators_status.h>
+#include <zmk_config_offsetkey/widgets/hid_indicators_status.h>
 #include <zmk/hid_indicators.h>
 #include <zmk/events/hid_indicators_changed.h>
 #include <zmk/hid_indicators_types.h>
