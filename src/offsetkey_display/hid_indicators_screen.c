@@ -11,7 +11,7 @@
 #include <zmk/display/widgets/layer_status.h>
 #include <zmk/display/widgets/wpm_status.h>
 #include <zmk_config_offsetkey/widgets/hid_indicators_status.h>
-#include <zmk_config_offsetkey/status_screen.h>
+#include <zmk_config_offsetkey/hid_indicators_screen.h>
 //#include <zmk/display/status_screen.h>
 
 #include <zephyr/logging/log.h>
@@ -41,7 +41,7 @@ static struct zmk_widget_wpm_status wpm_status_widget;
 static struct zmk_widget_hid_indicators_status indicators_status_widget;
 #endif
 
-lv_obj_t *zmk_display_status_screen() {
+lv_obj_t *offsetkey_display_hid_indicators_screen() {
     lv_obj_t *screen;
     screen = lv_obj_create(NULL);
 
